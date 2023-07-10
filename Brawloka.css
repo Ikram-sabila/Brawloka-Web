@@ -56,8 +56,8 @@ ul {
   margin: 0;
 }
 
-@media (max-width: 768px){
-  .carousel-caption{
+@media (max-width: 768px) {
+  .carousel-caption {
     align-items: center;
   }
 }
@@ -416,13 +416,19 @@ ul {
   background-color: #c18b0f;
 }
 
-@media (max-width: 768px) {
-  @media (max-width: 600px) {
-    .produk,
-    .produk1 {
-      flex-direction: column;
-      align-items: center;
-    }
+@media (max-width: 800px) {
+  .produk {
+    flex-direction: column;
+    align-items: center;
+    display: inline;
+    background-color: #f2be22;
+  }
+  .produk1 {
+    flex-direction: column;
+    align-items: center;
+    display: inline;
+    background-color: #f29727;
+
   }
 }
 /*---------------------------------------
@@ -432,7 +438,7 @@ ul {
 .step {
   margin-top: 20px;
 }
-.steps{
+.steps {
   padding-top: 20px;
   display: flex;
   justify-content: center;
@@ -445,7 +451,7 @@ ul {
 /*---------------------------------------
        SOP                
     -----------------------------------------*/
-ul{
+ul {
   color: #222222;
   list-style-type: square;
 }
@@ -455,24 +461,23 @@ ul{
   padding-right: 20px;
   padding-top: 20px;
 }
-.sop{
+.sop {
   flex-basis: 60%;
   padding-top: 20px;
 }
-.sopg1{
+.sopg1 {
   padding-bottom: 20px;
   padding-top: 20px;
   padding-left: 20px;
   flex-basis: 40%;
 }
 
-.sopg1 img{
+.sopg1 img {
   max-width: 800px;
   width: 100%;
-
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
   .sopg {
     display: flex;
     justify-content: center;
@@ -552,7 +557,6 @@ ul{
   max-width: 370px;
   max-height: 450px;
   padding: 20px;
-  
 }
 
 /*---------------------------------------
