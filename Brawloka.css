@@ -418,17 +418,14 @@ ul {
 
 @media (max-width: 800px) {
   .produk {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    display: inline;
-    background-color: #f2be22;
   }
   .produk1 {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    display: inline;
-    background-color: #f29727;
-
   }
 }
 /*---------------------------------------
