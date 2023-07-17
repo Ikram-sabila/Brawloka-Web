@@ -40,8 +40,12 @@ ul {
   align-items: center;
 }
 
+.carousel-item p{
+  font-size: x-large;
+}
 .d-block {
   min-height: 100vh;
+  min-width: 100vh;
 }
 .carousel-caption {
   position: absolute;
