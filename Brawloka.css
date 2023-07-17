@@ -68,6 +68,7 @@ ul {
   .carousel-item p{
     font-size: larger;
   }
+  
 }
 
 /*---------------------------------------
@@ -245,7 +246,6 @@ ul {
 
 .about-section .content-column .inner-column {
   position: relative;
-  padding-left: 30px;
 }
 
 .about-section .text {
