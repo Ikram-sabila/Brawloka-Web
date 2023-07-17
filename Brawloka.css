@@ -43,6 +43,7 @@ ul {
 .carousel-item p{
   font-size: x-large;
 }
+
 .d-block {
   min-height: 100vh;
   min-width: 100vh;
@@ -63,6 +64,9 @@ ul {
 @media (max-width: 768px) {
   .carousel-caption {
     align-items: center;
+  }
+  .carousel-item p{
+    font-size: larger;
   }
 }
 
